@@ -23,16 +23,19 @@
 
 
     <EditText
+        android:id="@+id/edUsername"
         android:hint="input username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
+        android:id="@+id/edPassword"
         android:hint="input password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btnLogin"
         android:text="Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
